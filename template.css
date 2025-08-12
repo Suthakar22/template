@@ -331,7 +331,7 @@ p.hint{text-indent: 0em;margin-top:1em;}
 /* Paragraph Styles */
 p.noindent {
 	    background-color: inherit;
-		margin: .5em 0;
+		margin: 0em 0;
 		font-size: 1em;
 	    padding: 0;
 		line-height: inherit;
@@ -340,7 +340,7 @@ p.noindent {
 }
 p.indent {
 	    background-color: inherit;
-		margin: .5em 0;
+		margin: 0em 0;
 		font-size: 1em;
 	    padding: 0;
 		line-height: inherit;
@@ -602,5 +602,6 @@ nav {
 }
 
 /* Nav specific formatting End*/
+
 
 
