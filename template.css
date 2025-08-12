@@ -68,28 +68,26 @@ section[class="copyright"] p {
 }
 p.bookeditors
 {
-font-size: 1.2em;
+font-size: 1.1em;
  margin: 6em 0 0em 0;
  text-indent: 0;
  text-align: center !important; 
  font-style: normal;
- font-weight: bold;
-	
-}
+ }
+
 p.bookeditor
 {
-font-size: 1.2em;
+font-size: 1em;
  margin: 0em 0 0em 0;
  text-indent: 0;
  text-align: center !important; 
  font-style: normal;
- font-weight: bold;
-	
-}
+ }
+
 
 p.bookauthor
 {
- font-size: 1.2em;
+ font-size: 1.1em;
  margin: 0em 0 0em 0;
  font-style: normal;
  text-indent: 0;
@@ -97,29 +95,41 @@ p.bookauthor
  text-align: center !important;
 }
 
+
 p.bookau
 {
- font-size: 1.2em;
+ font-size: 1.3em;
  margin: 2em 0 0em 0;
  font-style: normal;
  text-indent: 0;
  font-weight: normal;
  text-align: center !important;
 }
+
 p.bookedition, p.bookvolume
 {
 	font-size: 1.2em;
  margin: 1em 0 0 0; 
  text-indent: 0;
 }
-p.bookaff{
+p.bookaffa{
  margin: 0em 0 0em 0;
+ text-indent: 0;
+ text-align: center !important; 
+ font-style: normal;
+ font-size: 1em;
+ font-weight: normal;
+}
+
+p.bookaff{
+  margin: 0em 0 0em 0;
  text-indent: 0;
  text-align: center !important; 
  font-style: normal;
  font-size: 1.2em;
  font-weight: normal;
 }
+
 p.bookauthor+p.bookaff
 {margin: .2em 0 0 0;}
 
@@ -131,6 +141,18 @@ font-size: 1.2em;
  text-align: center !important; 
  font-weight: normal;
 }
+p.kwd {
+        background-color: inherit;
+        margin: 0em 0;
+        font-size: 1em;
+        padding: 0;
+        line-height: inherit;
+        text-indent: 0em;
+        text-align: center;
+        margin-top: 0em;
+        margin-bottom: -1em;
+}
+
 figure.copylogo
 {
 font-size: 1.2em;
@@ -272,7 +294,9 @@ table
 th { 
     border-bottom: 1px solid black;
 }
-
+th, td {
+    padding: 6px 12px;
+}
 figure.Table p {text-indent: 0;}
 /* Table Styles End*/
 /* Equation Styles */
@@ -363,25 +387,107 @@ p.indent {
 	text-align: justify;
 }
 p.center {
-	    background-color: inherit;
-		margin: 0em 0;
-		font-size: 1em;
-	    padding: 0;
-		line-height: inherit;
-	    text-indent: 0em;
+	   background-color: inherit;
+        margin: 0em 0;
+        font-size: 1em;
+        padding: 0;
+        line-height: inherit;
+        text-indent: 0em;
         text-align: center;
-        margin-top: 0.5em;
+        margin-top: 0.3em;
 }
-p.centers {
-	    background-color: inherit;
-		margin: 0em 0;
-		font-size: 1em;
-	    padding: 0;
-		line-height: inherit;
-	    text-indent: 0em;
+p.center1 {
+        background-color: inherit;
+        margin: 0em 0;
+        font-size: 1em;
+        padding: 0;
+        line-height: inherit;
+        text-indent: 0em;
         text-align: center;
         margin-top: 1em;
 }
+h1.fm3_1
+{
+        background-color: inherit;
+        margin: 0em 0;
+        font-size: 1.3em;
+        padding: 0;
+        line-height: inherit;
+        text-indent: 0em;
+        text-align: center;
+        margin-top: 3em;
+}
+
+p.centers {
+	   background-color: inherit;
+        margin: 0em 0;
+        font-size: 1.em;
+        padding: 0;
+        line-height: inherit;
+        text-indent: 0em;
+        text-align: center;
+        margin-top: 1em;
+}
+li.bull
+{
+        background-color: inherit;
+        margin: 0em 0;
+        font-size: 1em;
+        padding: 0;
+        line-height: inherit;
+        text-indent: 0.9em;
+        text-align: left;
+        margin-top: 3em;
+}
+h1.fmtitle
+{
+        background-color: inherit;
+        margin: 0em 0;
+        font-size: 1.3em;
+        padding: 0;
+        line-height: inherit;
+        text-indent: 0em;
+        text-align: center;
+        margin-top: 4em;
+        margin-bottom: 3em;
+}
+.bullet
+{
+list-style-type: disc;
+margin-bottom: 1em;
+}
+p.bmatter {
+        background-color: inherit;
+        margin: 0em 0;
+        font-size: 1em;
+        padding: 0;
+        line-height: inherit;
+        text-indent: 0em;
+        text-align: center;
+        margin-top: 0.5em;
+}
+p.bmattert {
+        background-color: inherit;
+        margin: 0em 0;
+        font-size: 1em;
+        padding: 0;
+        line-height: inherit;
+        text-indent: 0em;
+        text-align: center;
+        margin-top: 1em;
+}
+p.bmatterb {
+        background-color: inherit;
+        margin: 0em 0;
+        font-size: 1em;
+        padding: 0;
+        line-height: inherit;
+        text-indent: 0em;
+        text-align: center;
+        margin-top: 0em;
+}
+
+
 header + p,
 h1 + p,
 h2 + p,
@@ -407,8 +513,9 @@ p.figtitle, p.figsource
 p.sigline
 {
 text-align: right !important;
-border-bottom:3px solid rgba(3, 221, 255, 0.317);
+border-bottom:2px solid rgba(3, 221, 255, 0.317);
 }
+
 /* Paragraph Styles End*/
 /* Quotes,dialogue,poem Start*/
 .epigraph
@@ -617,6 +724,7 @@ nav {
 }
 
 /* Nav specific formatting End*/
+
 
 
 
