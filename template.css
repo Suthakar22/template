@@ -255,15 +255,18 @@ p.figsource {
 figure.Table, figure.UncapTable
 {
     text-align: center;
-    text-indent: 0;   
-	border: 0px solid;	
+    text-indent: 0;	
+}
+p.tblcaption
+{
+    text-align:center;
 }
 table
 {
     margin: 0 auto;
     text-align: center;
-    border-top: 2px double black; /* double line */
-    border-bottom: 2px double black; /* double line */
+    border-top: 3px double black; /* double line */
+    border-bottom: 3px double black; /* double line */
     border-collapse: collapse;
 }
 th { 
@@ -614,6 +617,7 @@ nav {
 }
 
 /* Nav specific formatting End*/
+
 
 
 
