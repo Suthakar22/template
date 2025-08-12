@@ -258,6 +258,18 @@ figure.Table, figure.UncapTable
     text-indent: 0;   
 	border: 0px solid;	
 }
+table
+{
+    margin: 0 auto;
+    text-align: center;
+    border-top: 2px double black; /* double line */
+    border-bottom: 2px double black; /* double line */
+    border-collapse: collapse;
+}
+th { 
+    border-bottom: 1px solid black;
+}
+
 figure.Table p {text-indent: 0;}
 /* Table Styles End*/
 /* Equation Styles */
@@ -602,6 +614,7 @@ nav {
 }
 
 /* Nav specific formatting End*/
+
 
 
 
