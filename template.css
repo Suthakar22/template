@@ -224,6 +224,15 @@ h6 {
     font-size: 1em;
     margin-top: 1em; 
 }
+p.chapaff{
+ margin: -1em 0 0em 0;
+ text-indent: 0;
+ text-align: center !important; 
+ font-style: normal;
+ font-size: 1.2em;
+ font-weight: normal;
+}
+
 p.chapau{margin: 1em 0 0 0;border:0px solid;}
 ul.parttoc, ul.chtoc 
 {list-style-type:none !important;padding:0;margin: 1em 0 1em 0;}
@@ -727,6 +736,7 @@ nav {
 }
 
 /* Nav specific formatting End*/
+
 
 
 
