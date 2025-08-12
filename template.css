@@ -270,6 +270,14 @@ div.equation
     text-align: center;
 	width:100%;
 }
+p.tblsource {
+    color: inherit;
+    font-size: .9em;
+    margin-top: .25em;
+    text-align: left;
+    text-indent: 0em !important;
+}
+
 div.equation {display: table; margin: 1.25em 0 1em 0em; page-break-inside: avoid; page-break-after: avoid; text-align: center; width:100%;}
 div.equation p {display: table-row;margin:0 !important;border:0px solid;}
 div.equation > p > span.eq-img {display:table-cell;border:0px solid;padding:0.5em;width:auto;}
@@ -582,4 +590,5 @@ nav {
 	display: none;
 	visibility: hidden;
 }
+
 /* Nav specific formatting End*/
