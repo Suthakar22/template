@@ -334,7 +334,7 @@ aside {
  margin: 1em auto;
  page-break-inside: avoid;
  padding: 2px 7px 7px 7px;
- text-align: left;
+ text-align: center;
  background-color: rgba(26, 99, 138, 0.508);
 }
 .box2 {
@@ -727,6 +727,7 @@ nav {
 }
 
 /* Nav specific formatting End*/
+
 
 
 
