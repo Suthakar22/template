@@ -329,7 +329,7 @@ p.ans{text-indent: 0em;margin-top:1em;}
 p.hint{text-indent: 0em;margin-top:1em;}
 /* Exercise Styles end*/
 /* Paragraph Styles */
-p {
+p.indent {
 	    background-color: inherit;
 		margin: .5em 0;
 		font-size: 1em;
@@ -592,3 +592,4 @@ nav {
 }
 
 /* Nav specific formatting End*/
+
