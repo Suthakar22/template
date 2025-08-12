@@ -340,7 +340,7 @@ aside {
 }
 .box1 {
     /* background-color: #fffff; */
-    border: 1px solid black;
+    border: 0px solid black;
 }
 h2.boxtitle
 {
@@ -724,6 +724,7 @@ nav {
 }
 
 /* Nav specific formatting End*/
+
 
 
 
