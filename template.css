@@ -313,7 +313,7 @@ p.tblsource {
     color: inherit;
     font-size: .9em;
     margin-top: .25em;
-    text-align: left;
+    text-align: center;
     text-indent: 0em !important;
 }
 
@@ -724,6 +724,7 @@ nav {
 }
 
 /* Nav specific formatting End*/
+
 
 
 
