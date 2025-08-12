@@ -329,6 +329,15 @@ p.ans{text-indent: 0em;margin-top:1em;}
 p.hint{text-indent: 0em;margin-top:1em;}
 /* Exercise Styles end*/
 /* Paragraph Styles */
+p.noindent {
+	    background-color: inherit;
+		margin: .5em 0;
+		font-size: 1em;
+	    padding: 0;
+		line-height: inherit;
+	    text-indent: 0em;
+	text-align: justify;
+}
 p.indent {
 	    background-color: inherit;
 		margin: .5em 0;
@@ -336,6 +345,7 @@ p.indent {
 	    padding: 0;
 		line-height: inherit;
 	    text-indent: 1em;
+	text-align: justify;
 }
 p.center {
 	    background-color: inherit;
@@ -375,7 +385,7 @@ blockquote + p, figcaption p {
  text-indent: 0em;
  
 }
-p.noindent, p.figtitle, p.figsource
+p.figtitle, p.figsource
 {
  text-indent: 0em;
 }
@@ -592,4 +602,5 @@ nav {
 }
 
 /* Nav specific formatting End*/
+
 
