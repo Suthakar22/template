@@ -972,3 +972,7 @@ margin-right:0em;
 text-align:right;
 text-indent:0em;
 }
+span.mono
+{
+font-family: courier;
+}
