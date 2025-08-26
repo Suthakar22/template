@@ -532,14 +532,7 @@ img.mid
 {
 vertical-align: middle;
 }
-table
-{
-border-collapse: collapse;
-margin-top:1em;
-margin-bottom:2em;
-margin-bottom:0.2em;
-font-size:small;
-}
+
 .primary
 {
 font-size:small;
@@ -936,7 +929,8 @@ text-indent:0em;
 }
 table.table
 {
-border:1pt solid black;
+border-top:1pt solid black;
+border-bottom:1pt solid black;
 border-collapse: collapse;
 margin-top:1em;
 margin-bottom:2em;
@@ -945,7 +939,6 @@ width:100%;
 }
 table.table td
 {
-border:1pt solid black;
 border-collapse: collapse;
 margin-top:1em;
 margin-bottom:2em;
