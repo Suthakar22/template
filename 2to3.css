@@ -950,7 +950,7 @@ th
 	border-bottom: 1px solid black;
 	text-align: left;
 }
-.center
+td.center
 {
 font-family:"Times New Roman", serif;
 font-weight:normal;
@@ -962,7 +962,7 @@ margin-right:0em;
 text-align:center;
 text-indent:0em;
 }
-.right
+td.right
 {
 font-size:small;
 margin-top:1em;
@@ -975,4 +975,27 @@ text-indent:0em;
 span.mono
 {
 font-family: courier;
+}
+th.center
+{
+font-family:"Times New Roman", serif;
+font-weight:bold;
+font-size:small;
+margin-top:0em;
+margin-bottom:0em;
+margin-left:0em;
+margin-right:0em;
+text-align:center;
+text-indent:0em;
+}
+th.right
+{
+font-size:small;
+font-weight:bold;
+margin-top:1em;
+margin-bottom:0em;
+padding-left:0em;
+margin-right:0em;
+text-align:right;
+text-indent:0em;
 }
