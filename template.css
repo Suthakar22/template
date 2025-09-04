@@ -188,6 +188,11 @@ header h1 {
     font-weight: bold;
     margin-bottom: 0;
 }
+h1.chaptitle
+{
+    margin-top: 0.5em;
+    margin-bottom: 5em;
+}
 .chap-subtitle, .part-subtitle, .sect-subtitle, .app-subtitle
 {
 	font-size: 1.3em !important;
@@ -528,7 +533,7 @@ text-align: right !important;
 border-bottom:2px solid rgba(3, 221, 255, 0.317);
 }*/
 p.sigline {
-	margin-top: 15px;
+	margin-top: 0.5em;
   text-align: right !important;
   border-bottom: 8px solid rgba(128, 128, 128, 0.317); /* gray with same transparency */
 }
@@ -740,6 +745,7 @@ nav {
 }
 
 /* Nav specific formatting End*/
+
 
 
 
